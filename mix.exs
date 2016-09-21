@@ -37,7 +37,7 @@ defmodule ExRated.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:ex2ms, "~> 1.4", github: "ericmj/ex2ms"},
+    [{:ex2ms, "~> 1.4", git: "https://github.com/ericmj/ex2ms"},
      {:ex_doc, "~> 0.11", only: :dev}]
   end
 
